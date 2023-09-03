@@ -1,0 +1,114 @@
+:root{
+ --bg-color: white;
+}
+
+body{
+    background-color: var(--bg-color);
+    font-family: 'Poppins',sans-serif;
+}
+
+
+.main-container, .container{
+    width: 100%;
+    height: 100%;
+    padding-top: 70px;
+    cursor: pointer;
+    transition: 2s;
+   }
+
+   
+
+   .afri-image img{
+    width: 40px;
+    height: 40px;
+   }
+
+   .intro-text{
+       color: black;
+       text-align: center;
+   }
+
+   .click{
+    margin-top: 150px;
+    text-align: center;
+    color: black;
+   }
+
+   .click p{
+    font-size: 16px;
+    animation: animateClick 0.5s ease-in-out infinite;
+   }
+
+   @keyframes animateClick {
+ 
+    75% {
+        opacity: 0.7; 
+    }
+
+    100% {
+        opacity:0.4;
+    }
+
+}
+   
+   .intro-text h5{
+       padding-top: 15px;
+       letter-spacing: 1.3px;
+   }
+   
+   .intro-text h4{
+    font-size: larger;
+       animation: animateText 3s  ease-in-out infinite;
+   }
+   
+   @keyframes animateText {
+       0% {
+           opacity: 0.9;
+       }
+
+      15%{
+        opacity: 0.7;
+      }
+
+       25% {
+        opacity: 0.5;
+      }
+
+
+    50% {
+        opacity: 0.4;
+    }
+
+       75% {
+           opacity: 0.2;
+       }
+
+         100% {
+           opacity: 0;
+       }
+   
+   }
+
+
+
+   @media screen and (max-width: 600px) {
+    .main-container, .container{
+        padding-top: 40px;
+       }
+
+
+    .click{
+        margin-top: 110px;
+       }
+
+       .intro-text h4{
+        line-height: 30px;
+       } 
+
+
+   }
+    
+   
+
+
+
