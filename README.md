@@ -1,3 +1,5 @@
+View Frontend Demo: https://djsteplion.github.io/AfriNet/
+
 # *"AFRI-NET"*  
 is  a web  solution , aimed at helping people across Africa to access any content of their choice on the internet with their local language/ tongue , especially those who don't understand or speak English language, without having to search  for physical or online translators.
 
